@@ -10,8 +10,8 @@ class Snake(Animal):
     pass
 
 
-# class Platypus(Animal):
-#     pass
+class Platypus(Animal):
+    pass
 
 
 def can_quack(animal):
@@ -24,11 +24,6 @@ def can_quack(animal):
 
 
 if __name__ == '__main__':
-    duck = Duck()
-    print(can_quack(duck))
-
-    snake = Snake()
-    print(can_quack(snake))
-
-    # platypus = Platypus()
-    # print(can_quack(platypus))
+    print(can_quack(Duck()))
+    print(can_quack(Snake()))
+    print(can_quack(Platypus()))

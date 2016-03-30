@@ -23,11 +23,6 @@ class Platypus(Animal):
 
 
 if __name__ == '__main__':
-    duck = Duck()
-    print(duck.can_quack())
-
-    snake = Snake()
-    print(snake.can_quack())
-
-    platypus = Platypus()
-    print(platypus.can_quack())
+    print(can_quack(Duck()))
+    print(can_quack(Snake()))
+    print(can_quack(Platypus()))
